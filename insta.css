@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{                /* this for navy blue webpage */
+    width:100%;
+    height:100%;
+    background:#091836;
+    display: flex;
+    align-items:center;
+    justify-content: center; /*image apper at center of webpage */
+
+
+}
+.insta{
+    width:250px;
+    height:250px;
+    background:radial-gradient(circle at 33% 100%,#fed373 4%,#f15245 30%,#d92e7f 62% ,#9b36b7 85%,#5153cf);
+    border-radius: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center; /*rectangular box  apper at center of within insta class*/
+}
+.insta-inner{
+    width:200px;
+    height:200px;
+    border:18px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center; /*circle  apper at center of within rectangular box */
+    position: relative;
+}
+
+.insta-inner2{
+    width:100px;
+    height:100px;
+    border:18px solid #fff;
+    border-radius: 50%;
+   
+}
+.insta-inner::after{
+    content: '';
+    background:#fff;
+    width:25px;
+    height:25px;
+    top:15px;
+    right:15px;
+    position: absolute;
+    border-radius: 50px;
+
+
+
+}

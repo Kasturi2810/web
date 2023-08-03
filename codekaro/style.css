@@ -1,0 +1,29 @@
+.card{
+    transition: 2s; /* zoom image in box when cursor moves on the image */
+    border: 1px solid red; /*gives full width border */
+    width: 266px;
+    padding: 10px;/* aplliy space b/w content and box border */
+    margin: 10px; /* aplliy space outside the box border */
+    border-radius: 14px;/* curved corners to box*/
+    font-family:  sans-serif;
+
+}
+.card:hover{
+    transform: rotate(3deg); /* rotate 3 degrees image  */
+    width: 290px;
+
+    border-radius: 22px;
+    border: 1px solid pink; 
+    box-shadow: 6px 4px 16px 8px blue;
+}
+.card-img{
+    width: 100%; /*fix image exactly with in box */
+    border-radius: 14px;
+
+}
+.flexbox{
+    display: flex; /* display boxes side by side in page */
+    justify-content: center;
+    flex-wrap: wrap; /* based on the size of screen content / images wrap or occupy onn the screen(responsive boxes/images) */
+
+}
